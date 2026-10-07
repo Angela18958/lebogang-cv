@@ -227,7 +227,7 @@ export default function App() {
 
             <div className="ref-card ref-card-accent">
               <h4>Let's Work Together</h4>
-              <p className="muted">Available for freelance & full-time opportunities.</p>
+              <p className="muted">Available for freelance, Part-time & full-time opportunities.</p>
               <a href={`mailto:${cvData.contact.email}`} className="ref-phone">
                 ✉ {cvData.contact.email}
               </a>
@@ -237,7 +237,7 @@ export default function App() {
       </main>
 
       <footer className="footer">
-        <p>© {new Date().getFullYear()} {cvData.name} — Built with React</p>
+        <p>© {new Date().getFullYear()} {cvData.name}</p>
       </footer>
     </div>
   );
