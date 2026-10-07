@@ -226,12 +226,12 @@ export default function App() {
             ))}
 
             <div className="ref-card ref-card-accent">
-              <h4>Let's Work Together</h4>
-              <p className="muted">Available for freelance, Part-time & full-time opportunities.</p>
-              <a href={`mailto:${cvData.contact.email}`} className="ref-phone">
-                ✉ {cvData.contact.email}
-              </a>
-            </div>
+  <h4>Let's Work Together</h4>
+  <p className="muted">Currently accepting freelance engagements, part-time roles, contract-based projects, and full-time positions.</p>
+  <a href={`mailto:${cvData.contact.email}`} className="ref-phone">
+    ✉ {cvData.contact.email}
+  </a>
+</div>
           </div>
         </Section>
       </main>
