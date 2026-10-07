@@ -63,6 +63,57 @@ export const cvData = {
     },
   ],
 
+  projects: [
+    {
+      name: "Streamline Chess Organizers",
+      url: "http://streamlinechessorganizers.co",
+      description: "Website for a chess tournament organizer platform.",
+      tags: ["WordPress", "SEO"],
+    },
+    {
+      name: "Lutendo",
+      url: "http://lutendo.co.za",
+      description: "Business website with custom design and content.",
+      tags: ["WordPress", "Web Design"],
+    },
+    {
+      name: "Matoto",
+      url: "http://matoto.co.za",
+      description: "Company website for a technology solutions provider.",
+      tags: ["WordPress", "Custom Theme"],
+    },
+    {
+      name: "Buscor",
+      url: "http://buscor.co.za",
+      description: "Corporate site for a bus transport company.",
+      tags: ["WordPress", "Corporate"],
+    },
+    {
+      name: "Smart Computer",
+      url: "http://smartcomputer.co.za",
+      description: "E-commerce style website for a computer retailer.",
+      tags: ["WordPress", "eCommerce"],
+    },
+    {
+      name: "Mentalversations",
+      url: "http://mentalversations.co.za",
+      description: "Content and community website for mental health conversations.",
+      tags: ["WordPress", "Content"],
+    },
+    {
+      name: "Wiggle Promotions App",
+      url: "http://app.wigglepromotions.com",
+      description: "Web application for promotions and campaign management.",
+      tags: ["React", "Node.js", "Custom System"],
+    },
+    {
+      name: "Simeliza Group",
+      url: "http://simelizagroup.co.za",
+      description: "Corporate website for a diversified business group.",
+      tags: ["WordPress", "Corporate"],
+    },
+  ],
+
   skillGroups: [
     {
       title: "Development",
@@ -104,7 +155,7 @@ export const cvData = {
       relationship: "Former Colleague",
       phone: "+27 66 040 2053",
     },
-     {
+    {
       name: "Theto Mokganya",
       relationship: "Former Manager",
       phone: "+27 79 771 3627",

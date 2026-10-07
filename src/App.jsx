@@ -30,6 +30,7 @@ function NavBar() {
   const links = [
     { href: "#profile", label: "Profile" },
     { href: "#experience", label: "Experience" },
+    { href: "#projects", label: "Projects" },
     { href: "#skills", label: "Skills" },
     { href: "#education", label: "Education" },
     { href: "#contact", label: "Contact" },
@@ -138,6 +139,34 @@ export default function App() {
                   </div>
                 ) : null}
               </article>
+            ))}
+          </div>
+        </Section>
+
+        <Section id="projects" title="Projects">
+          <div className="projects-grid">
+            {cvData.projects.map((proj, i) => (
+              <a
+                key={i}
+                href={proj.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="project-card"
+              >
+                <div className="project-header">
+                  <h4>{proj.name}</h4>
+                  <span className="project-arrow">↗</span>
+                </div>
+                <p className="project-desc">{proj.description}</p>
+                <div className="project-tags">
+                  {proj.tags.map((t, j) => (
+                    <Chip key={j} label={t} />
+                  ))}
+                </div>
+                <span className="project-url">
+                  {proj.url.replace(/^https?:\/\//, "")}
+                </span>
+              </a>
             ))}
           </div>
         </Section>
